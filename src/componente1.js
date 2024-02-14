@@ -26,7 +26,9 @@ return(
 
 function Componente1() {
     return(
-        <h1>oi</h1>
+        <div>
+            <h1>teste</h1>
+        </div>
     )
 }
 export default Componente1
