@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import "./index.css"
 /*
 function Componente1() {
@@ -23,11 +23,10 @@ return(
     </div>
 )
 } */
-
-function Componente1() {
+function Componente1(props) {
     return(
         <div>
-            <h1>teste</h1>
+            <h1>Isso é um uso de {props.assunto}</h1>
         </div>
     )
 }

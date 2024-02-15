@@ -6,6 +6,6 @@ import Componente1 from './componente1';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Componente1/>
+    <Componente1 assunto="props"/>
   </React.StrictMode>
 );
